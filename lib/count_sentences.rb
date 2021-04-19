@@ -29,5 +29,4 @@ class String
   def count_sentences
     self.strip.split(/[.?!]/).count
   end
-  self.reject(&:empty?)
 end
