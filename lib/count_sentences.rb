@@ -29,5 +29,5 @@ class String
   def count_sentences
     self.strip.split(/[.?!]/).count
   end
-  array.reject(&:empty?)
+  self.reject(&:empty?)
 end
